@@ -2,9 +2,15 @@
   "name": "naive-ui-admin",
   "version": "1.5.5",
   "author": {
+<<<<<<< HEAD
     "name": "Abeil",
     "email": "p_houyongfeng@163.com",
     "url": "https://github.com/adokeHYF/NaiveUIAdminStudy"
+=======
+    "name": "Ahjung",
+    "email": "735878602@qq.com",
+    "url": "https://github.com/jekip/naive-ui-admin"
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
   },
   "private": true,
   "scripts": {

@@ -3,7 +3,10 @@
 [Naive Ui Admin](https://github.com/jekip/naive-ui-admin) 是一个基于 [Vue3.0](https://github.com/vuejs/vue-next)、[Vite](https://github.com/vitejs/vite)、 [Naive UI](https://www.naiveui.com/)、[TypeScript](https://www.typescriptlang.org/) 的中后台解决方案，它使用了最新的前端技术栈，并提炼了典型的业务模型，页面，包括二次封装组件、动态菜单、权限校验、粒子化权限控制等功能，它可以帮助你快速搭建企业级中后台项目，相信不管是从新技术使用还是其他方面，都能帮助到你。
 
 ## 特性
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
 - **最新技术栈**：使用 Vue3/vite2 等前端前沿技术开发
 - **TypeScript**: 应用程序级 JavaScript 的语言
 - **主题**：可配置的主题
@@ -11,15 +14,24 @@
 - **权限** 内置完善的动态路由权限生成方案
 - **组件** 二次封装了多个常用的组件
 
+<<<<<<< HEAD
 ## 在线预览
 
+=======
+
+## 在线预览
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
 - [naive-ui-admin](https://naive-ui-admin.vercel.app)
 
 账号：admin，密码：123456（随意）
 
 ## 文档
 
+<<<<<<< HEAD
 [文档地址](https://naive-ui-admin-docs.vercel.app)
+=======
+[文档地址](https://naive-ui-admin-docs.vercel.app) 
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
 
 ## 准备
 
@@ -66,9 +78,15 @@ yarn build
 [CHANGELOG](./CHANGELOG.md)
 
 ## 感谢
+<<<<<<< HEAD
 
 [@Vben](https://github.com/anncwb/vue-vben-admin) 借鉴 vue-vben-admin 实现的骨架，同时也使用作者开发的 vite 插件，再次感谢作者。
 
+=======
+[@Vben](https://github.com/anncwb/vue-vben-admin) 借鉴 vue-vben-admin 实现的骨架，同时也使用作者开发的 vite 插件，再次感谢作者。
+
+
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
 ## 如何贡献
 
 非常欢迎你的加入！[提一个 Issue](https://github.com/jekip/naive-ui-admin/issues) 或者提交一个 Pull Request。
@@ -109,6 +127,7 @@ yarn build
 | :-: | :-: | :-: | :-: | :-: |
 | not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
+<<<<<<< HEAD
 ## 修改者
 
 [@EggOne](https://github.com/adokeHYF)
@@ -127,3 +146,18 @@ DotENV - .env 文件 高亮
 
 ```
 
+=======
+## 维护者
+[@Ah jung](https://github.com/jekip)
+
+## 交流
+
+`Naive Ui Admin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供 QQ 交流群使用问题欢迎在群内提问。
+
+- QQ 群 `328347666`
+
+## 赞助
+#### 如果你觉得这个项目帮助到了你，你可以帮作者买一杯果汁表示鼓励 🍹。
+
+![donate](https://jekip.github.io/docs/images/sponsor.png)
+>>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
