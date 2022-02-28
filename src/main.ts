@@ -3,7 +3,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router, { setupRouter } from './router';
 import { setupStore } from '@/store';
-import MakeitCaptcha from 'makeit-captcha';
+import MakeitCaptcha from 'makeit-captcha'; // 滑块组件
 import 'makeit-captcha/dist/captcha.min.css';
 import { setupNaive, setupDirectives } from '@/plugins';
 import { AppProvider } from '@/components/Application';

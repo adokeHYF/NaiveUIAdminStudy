@@ -14,11 +14,7 @@ module.exports = {
         'fixed',
         'resolve',
         'resolves',
-<<<<<<< HEAD
-        'resolved',
-=======
         'resolved'
->>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
       ],
       issuePrefixes: ['#'],
       noteKeywords: ['BREAKING CHANGE'],
@@ -27,13 +23,8 @@ module.exports = {
       revertCorrespondence: ['header', 'hash'],
       warn() {},
       mergePattern: null,
-<<<<<<< HEAD
-      mergeCorrespondence: null,
-    },
-=======
       mergeCorrespondence: null
     }
->>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
   },
   rules: {
     'body-leading-blank': [2, 'always'],
@@ -59,16 +50,8 @@ module.exports = {
         'wip',
         'workflow',
         'types',
-<<<<<<< HEAD
         'release',
-      ],
-    ],
-  },
-};
-=======
-        'release'
       ]
     ]
   }
-}
->>>>>>> bc0da8545a0a5daeab75c8323af4890c0f1861e9
+};
