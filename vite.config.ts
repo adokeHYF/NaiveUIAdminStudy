@@ -20,7 +20,10 @@ function pathResolve(dir: string) {
 
 export default ({ command, mode }: ConfigEnv): UserConfig => {
   const root = process.cwd();
+  console.log('mode', mode);
+  console.log('root', root);
   const env = loadEnv(mode, root);
+  console.log('loadEnv', env);
   const viteEnv = wrapperEnv(env);
   const { VITE_PUBLIC_PATH, VITE_DROP_CONSOLE, VITE_PORT, VITE_GLOB_PROD_MOCK, VITE_PROXY } =
     viteEnv;
@@ -58,6 +61,8 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
     server: {
       host: true,
       port: VITE_PORT,
+      open: true,
+      cors: true,
       proxy: createProxy(VITE_PROXY),
       // proxy: {
       //     '/api': {
