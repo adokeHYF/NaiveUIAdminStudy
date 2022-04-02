@@ -38,6 +38,14 @@ const routes: Array<RouteRecordRaw> = [
         },
         component: () => import('@/views/vue3/class&Style.vue'),
       },
+      {
+        path: 'vTransition',
+        name: 'vue3-transition',
+        meta: {
+          title: 'vue3动画',
+        },
+        component: () => import('@/views/vue3/transition.vue'),
+      },
     ],
   },
 ];
